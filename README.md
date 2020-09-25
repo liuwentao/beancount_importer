@@ -11,7 +11,12 @@ This is an importer for converting moneywiz3 exported csv file to beancount reco
 5. Run `python moneywiz_converter.py > temp.bean` to generate beancount records.
 6. Check and combine with your original beancount document.
 
+## Bluecoins convert
 
+- 针对中文版做的处理，英文的需要将类型做一下转换了
+- 忽略了tag
+- 支持`payee`
+- 对于`新账户`的状态增加了`pad`和`bal`
 ### Reference
 https://github.com/lyricat/beancount-converter
 
